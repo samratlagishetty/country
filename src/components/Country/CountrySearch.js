@@ -45,6 +45,11 @@ function CountrySearch() {
 
   return (
     <div className="container">
+      <div className="header">
+        <h1>🌍 Country Info Finder</h1>
+        <p>Search for any country and get quick facts!</p>
+      </div>
+
       <form onSubmit={handleSubmit} className="search-form">
         <input 
           type="text" 
